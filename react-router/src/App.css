@@ -1,0 +1,8 @@
+.navbar a {
+  display: inline-block;
+  width: 100px;
+  background: skyblue
+}
+.navbar a.active{
+  background: red
+}

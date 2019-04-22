@@ -1,0 +1,22 @@
+.example-enter{
+  /* 进入的动画的起点 */
+  margin-left: -200px;
+  transform: rotate(0deg);
+  transition-duration: 500ms;
+}
+.example-enter-active {
+  /*  进入动画的终点   */
+  transform: rotate(360deg);
+  margin-left: 0px;
+}
+.example-leave{
+  /* 离开的起点 */
+  margin-left: 0px;
+  opacity: 1;
+  transition-duration: 300ms;
+}
+.example-leave-active{
+  /* 离开的终点 */
+  margin-left: 600px;
+  opacity: 0;
+}
